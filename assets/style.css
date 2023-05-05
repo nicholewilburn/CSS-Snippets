@@ -1,0 +1,46 @@
+:root {
+    --bg: black;
+    --color: hotpink;
+    --main: white;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--bg);
+}
+
+header {
+    text-align: center;
+    color: var(--main);
+}
+
+header h1 {
+    color: var(--color);
+}
+
+.snippets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    border-width: 2px;
+    border-color: var(--main);
+    flex:0 0 300px;
+}
+
+section > header {
+    border-width: 3px;
+    color: var(--color);
+    font-weight: bolder;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 100px;
+    background-color:var(--color);
+    color: var(--main);
+}
+
